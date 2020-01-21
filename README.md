@@ -1,3 +1,43 @@
+### Page HTML
+```markdown
+<HTML>
+    <HEAD>
+    </HEAD>
+    <BODY>
+         <CENTER>
+         <H1 style="color:bleu">Lycee Notre dame</H1><BR>
+         <H3>Promotion 2019/2020</H3><BR>
+         <H3>Cours HTML</H3>
+         </CENTER>
+    <BODY>
+<HTML>
+  
+````  
+  ### les tableaux
+ ```markdown 
+<TABLE BORDER>
+     <CAPTION ALIGN=top> PREMIER TABLEAU</CAPTION>
+       <TR>
+         <TD>ligne 1 ; cellule 1</TD>
+         <TD>ligne 1 ; cellule 2</TD>
+       </TR>
+       <TR>
+         <TD>ligne 2 ; cellule 1</TD>
+         <TD>ligne 2 ; cellule 2</TD>
+       </TR>
+ </TABLE>
+
+````
+
+
+
+
+
+
+
+
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/Nounem/NSI/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
