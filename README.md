@@ -180,6 +180,6 @@ répertoire « repertoire_exemple » qui se trouve dans le même répertoire que
 
 ## Help
 
-Having trouble with Pages? Check out our [documentation](http://www.lyceenotre-dame72.fr/local/cache-gd2/67168535ab900a80834ab76344a73b3d.jpg) 
-[Openclassroom](https://openclassrooms.com/fr/)
-[image gratuite](https://pixabay.com/fr/photos/search/einstein/?min_width=16&min_height=16)
+* Having trouble with Pages? Check out our [documentation](http://www.lyceenotre-dame72.fr/local/cache-gd2/67168535ab900a80834ab76344a73b3d.jpg) 
+* [Openclassroom](https://openclassrooms.com/fr/)
+* [image gratuite](https://pixabay.com/fr/photos/search/einstein/?min_width=16&min_height=16)
