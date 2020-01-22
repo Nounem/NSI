@@ -176,7 +176,7 @@ répertoire « repertoire_exemple » qui se trouve dans le même répertoire que
 # Résultat
 
 
-![Mon-cv](https://github.com/Nounem/NSI/blob/master/cv.PNG)
+![Mon-cv](https://raw.githubusercontent.com/Nounem/NSI/master/cv.PNG)
 
 ## Help
 
