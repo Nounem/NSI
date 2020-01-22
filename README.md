@@ -1,25 +1,102 @@
-### Page HTML
-
 ```markdown
+### Contexte et historique de HTML
 
-<!-- commentaire -->
-<!DOCTYPE>
-<HTML>
-    <HEAD>
-    </HEAD>
-    <BODY>
-         <CENTER>
-         <H1>Lycee Notre dame</H1><BR>
-         <H3>Promotion 2019/2020</H3><BR>
-         <H3>Cours HTML</H3>
-         </CENTER>
-    <BODY>
-<HTML>
+
+Le langage HTML (Hyper Text Markup Language) fait partie d’une classe plus vaste de langages (SGML, XML, XHTML,...)
+destinés à décrire des documents et leur mise en page tout en distinguant la forme et le fond.
+Il a été inventé Tim Berners-Lee en 1991 et a d’abord été utilisé par des physiciens du CERN afin de communiquer leurs travaux.
+Il est a la base du WEB, la partie actuellement la plus utilisée d’internet.
+
+Tim Berners-Lee suit encore aujourd'hui avec attention l'évolution du Web 
+et a créé le World Wide Web Consortium (W3C) qui définit les nouvelles versions des langages.
+Il a par ailleurs créé plus récemment la World Wide Web Foundation, qui analyse et suit l'évolution du Web.
+
+
+### la base
+
+Dans votre répertoire "public_html" créez un repertoire appelé "tp1".
+Dans "tp1" créez un fichier "essai.html" avec le contenu suivant:
+````
+
+```html
+<html>
+    <head>
+         <meta name="author" content="Marc Glisse">
+         <!-- je suis bête, j'ai oublié de modifier le nom de l'auteur -->
+         <title>
+                Premier essai
+          </title>
+    </head>
+    <body>
+             <p>
+              Bonjour tout le monde...
+             </p>
+     <!-- je ne sais pas trop quoi écrire alors je fais plein de commentaires qui ne vont pas s'afficher -->
+            <hr>
+    </body>
+</html>
+````
+
+### les titres et paragraphe
+
+
+ ```html
+<h1>Voici un titre</h1>  
+<h2>Maintenant un sous-titre</h2>  
+<h3>Et on peut continuer</h3>  
+<h4>La profondeur est limitée</h4> 
+<h5>Pénultième</h5>  
+<p>Un petit texte justifié à droite pour introduire  cette partie, elle le mérite bien, et puis il serait dommage de se  priver. </p> 
+<h6>Un vraiment petit paragraphe</h6>  
+<p> Et un titre est un changement de paragraphe implicite.</p> 
+
+````
+
+### les listes
+
+```html 
+<H1>Les mois du printemps</H1>
+    <UL>
+        <LI>avril
+        <LI>mai
+        <LI>juin
+    </UL>
+    <P>
+    <H3>Les mois d'automne</H3>
+        
+    <OL>
+        <LI>octobre
+        <LI>novembre
+        <LI>decembre
+    </OL>
+            
+            
+            
+     <ul>   
+            <li> <b> Le texte peut être en gras, </b> </li> 
+            <li> <em> Les italiques mettent le texte en valeur ! </em> </li>   
+            <li> Et enfin, on peut écrire à la machine du même nom, </li>     
+            <li> un style souligné à éviter : ici, on ne peut pas cliquer,</li>   
+            <li> et on peut même rayer du texte  </li>  
+            <li> <big> On peut écrire de gros caractères, </big> <small> ou de petits </small> </li>     
+            <li> Et enfin, on peut utiliser des exposants comme dans 1<sup>er</sup> ou des indices, u<sub>n+1</sub> = u<sub>n</sub>+1                </li>   
+    </ul>  
+    <ul>   
+        <li> Du texte violet, </li>  
+       <li> du texte, du texte plus gros (en relatif), </li>   
+       <li> du texte, taille absolue,  </li>     
+       <li>  et des jolies lettres.</li>  
+    </ul>  
+````
+
+ ### les tableaux
   
-````  
-  ### les tableaux
- ```markdown 
- **exemple 1**
+  
+  
+ ```html 
+
+
+ *exemple 1*
  
 <TABLE BORDER>
      <CAPTION ALIGN=top> PREMIER TABLEAU</CAPTION>
@@ -33,11 +110,11 @@
        </TR>
  </TABLE>
  
- **exemple 2**
+ *exemple 2*
  
 
  <TABLE BORDER=8 CELLPADDING=10>
-         <CAPTION ALIGN=bottom>DEUXIEME TABLEAU </CAPTION>
+         <CAPTION>DEUXIEME TABLEAU </CAPTION>
          <TR>
               <TH COLSPAN=5>LETTRES</TH>
          </TR>
@@ -60,32 +137,21 @@
 
 ````
 
-### les titres et paragraphe
 
-
- ```markdown 
-<h1>Un titre de niveau 1 (un gros titre)</h1>
-    <p>Un paragraphe.</p>
-
-    <h2>Un titre de niveau 2 (un sous titre)</h2>
-      <p>Un paragraphe.</p>
-
-      <h3>Un titre de niveau 3 (un sous-sous titre)</h3>
-        <p>Etc.</p>
-
-````
 
 ### les liens et les images
 
-```markdown 
-**les liens**
+```html
+
+*les liens*
+
 <a href="exemple.html">Lien vers le fichier « exemple.html » se trouvant dans le même répertoire que la
 page actuelle</a>
 
 <a href="repertoire_exemple/exemple.html">Lien vers le fichier « exemple.html » se trouvant dans le
 répertoire « repertoire_exemple » qui se trouve dans le même répertoire que la page actuelle</a>
 
-**les images**
+*les images*
 
 <IMG SRC="Adresse de l'image"> 
     
@@ -94,28 +160,22 @@ répertoire « repertoire_exemple » qui se trouve dans le même répertoire que
 ````
 
 
-### les listes
-
-```markdown 
-<H1>Les mois du printemps</H1>
-    <UL>
-        <LI>avril
-        <LI>mai
-        <LI>juin
-    </UL>
-    <P>
-    <H3>Les mois d'automne</H3>
-        
-    <OL>
-        <LI>octobre
-        <LI>novembre
-        <LI>decembre
-    </OL>
-````
+```markdown
 
 
+## EXERCICE 1 : creer un CV
 
+1.créer un repertoire *monsite* dans *Bureau*
+2.Créer le fichier *moncv.html* dans le répertoire *Bureau/monsite/*
+3.Télécharger l'image depuis [image](https://raw.githubusercontent.com/Nounem/NSI/master/photo.png)  et la placer dans le même répertoire que votre page. Puis insérer l'image dans la page Web à l'aide de la balise *<img>*
+4.Ajouter le *Nom* et *Prenom* dans une balise de *<h1>*
+  > l'âge dans un paragraphe , 
+  > le métier dans un autre paragraphe,
+  > l'adresse dans un unique environnement
+*N'oubliez pas de mettre <br> pour aller à la ligne à chaque fois *.
 
+5.Ajouter la partie Formation en utilisant un environnement <H1> contenant le titre Formation comme titre de premier niveau.
 
 # Help
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.co
+Having trouble with Pages? Check out our [documentation](http://www.lyceenotre-dame72.fr/local/cache-gd2/67168535ab900a80834ab76344a73b3d.jpg) 
+````
