@@ -1,19 +1,23 @@
-### Contexte et historique de HTML
-Le langage HTML (Hyper Text Markup Language) fait partie d’une classe plus vaste de langages (SGML, XML, XHTML,...)
-destinés à décrire des documents et leur mise en page tout en distinguant la forme et le fond.
-Il a été inventé Tim Berners-Lee en 1991 et a d’abord été utilisé par des physiciens du CERN afin de communiquer leurs travaux.
-Il est a la base du WEB, la partie actuellement la plus utilisée d’internet.
 
-Tim Berners-Lee suit encore aujourd'hui avec attention l'évolution du Web 
-et a créé le World Wide Web Consortium (W3C) qui définit les nouvelles versions des langages.
-Il a par ailleurs créé plus récemment la World Wide Web Foundation, qui analyse et suit l'évolution du Web.
+
+![Lyée notre Dame](http://www.lyceenotre-dame72.fr/local/cache-vignettes/L200xH135/siteon0-edfa2.jpg)
+### Contexte et historique de HTML
+    Le langage HTML (Hyper Text Markup Language) fait partie d’une classe plus vaste de langages (SGML, XML, XHTML,...)
+    destinés à décrire des documents et leur mise en page tout en distinguant la forme et le fond.
+    Il a été inventé Tim Berners-Lee en 1991 et a d’abord été utilisé par des physiciens du CERN afin de communiquer leurs travaux.
+    Il est a la base du WEB, la partie actuellement la plus utilisée d’internet.
+
+    Tim Berners-Lee suit encore aujourd'hui avec attention l'évolution du Web 
+    et a créé le World Wide Web Consortium (W3C) qui définit les nouvelles versions des langages.
+    Il a par ailleurs créé plus récemment la World Wide Web Foundation, qui analyse et suit l'évolution du Web.
 
 
 ### la base
 
-Dans votre répertoire "public_html" créez un repertoire appelé "tp1".
-Dans "tp1" créez un fichier "essai.html" avec le contenu suivant:
-
+    créer un repertoire *monsite* dans *Bureau*
+    Créer le fichier *moncv.html* dans le répertoire *Bureau/monsite/*
+    Télécharger l'image depuis :
+ [image](https://raw.githubusercontent.com/Nounem/NSI/master/photo.png) 
 
 ```html
 <html>
@@ -161,19 +165,14 @@ répertoire « repertoire_exemple » qui se trouve dans le même répertoire que
 
 ## EXERCICE 1 : creer un CV
 
-1.créer un repertoire *monsite* dans *Bureau*
-2.Créer le fichier *moncv.html* dans le répertoire *Bureau/monsite/*
-3.Télécharger l'image depuis [image](https://raw.githubusercontent.com/Nounem/NSI/master/photo.png) 
-et la placer dans le même répertoire que votre page. Puis insérer l'image dans la page Web à l'aide de la balise *<img>*
+* Insérer l'image dans la page Web à l'aide de la balise `<img>`
 
-4.Ajouter le *Nom* et *Prenom* dans une balise de *<h1>*
-  > l'âge dans un paragraphe , 
-  > le métier dans un autre paragraphe,
-  > l'adresse dans un unique environnement
-    
-*N'oubliez pas de mettre <br> pour aller à la ligne à chaque fois *.
-
-5.Ajouter la partie Formation en utilisant un environnement *<H1>* contenant le titre Formation comme titre de premier niveau.
+* Ajouter le *Nom* et *Prenom* dans une balise de `<h1>`
+   * l'âge dans un paragraphe 
+   * le métier dans un autre paragraphe
+   * l'adresse dans un unique environnement
+* Ajouter la partie Formation en utilisant un environnement `<H1>` contenant le titre Formation comme titre de premier niveau.
 
 ##Help
+
 Having trouble with Pages? Check out our [documentation](http://www.lyceenotre-dame72.fr/local/cache-gd2/67168535ab900a80834ab76344a73b3d.jpg) 
