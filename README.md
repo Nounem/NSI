@@ -173,6 +173,13 @@ répertoire « repertoire_exemple » qui se trouve dans le même répertoire que
    * l'adresse dans un unique environnement
 * Ajouter la partie Formation en utilisant un environnement `<H1>` contenant le titre Formation comme titre de premier niveau.
 
-##Help
+# Résultat
+
+
+![Mon-cv](https://github.com/Nounem/NSI/blob/master/cv.PNG)
+
+## Help
 
 Having trouble with Pages? Check out our [documentation](http://www.lyceenotre-dame72.fr/local/cache-gd2/67168535ab900a80834ab76344a73b3d.jpg) 
+[Openclassroom](https://openclassrooms.com/fr/)
+[image gratuite](https://pixabay.com/fr/photos/search/einstein/?min_width=16&min_height=16)
