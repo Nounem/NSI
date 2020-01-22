@@ -17,7 +17,7 @@
     créer un repertoire *monsite* dans *Bureau*
     Créer le fichier *moncv.html* dans le répertoire *Bureau/monsite/*
     Télécharger l'image depuis :
- [image](https://raw.githubusercontent.com/Nounem/NSI/master/photo.png) 
+ [Telecharger image ici ](https://raw.githubusercontent.com/Nounem/NSI/master/photo.png) 
 
 ```html
 <html>
