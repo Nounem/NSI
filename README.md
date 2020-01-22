@@ -1,7 +1,4 @@
-```markdown
 ### Contexte et historique de HTML
-
-
 Le langage HTML (Hyper Text Markup Language) fait partie d’une classe plus vaste de langages (SGML, XML, XHTML,...)
 destinés à décrire des documents et leur mise en page tout en distinguant la forme et le fond.
 Il a été inventé Tim Berners-Lee en 1991 et a d’abord été utilisé par des physiciens du CERN afin de communiquer leurs travaux.
@@ -16,7 +13,7 @@ Il a par ailleurs créé plus récemment la World Wide Web Foundation, qui analy
 
 Dans votre répertoire "public_html" créez un repertoire appelé "tp1".
 Dans "tp1" créez un fichier "essai.html" avec le contenu suivant:
-````
+
 
 ```html
 <html>
@@ -93,11 +90,11 @@ Dans "tp1" créez un fichier "essai.html" avec le contenu suivant:
   
   
   
- ```html 
+
 
 
  *exemple 1*
- 
+  ```html 
 <TABLE BORDER>
      <CAPTION ALIGN=top> PREMIER TABLEAU</CAPTION>
        <TR>
@@ -110,9 +107,10 @@ Dans "tp1" créez un fichier "essai.html" avec le contenu suivant:
        </TR>
  </TABLE>
  
+````
  *exemple 2*
  
-
+  ```html
  <TABLE BORDER=8 CELLPADDING=10>
          <CAPTION>DEUXIEME TABLEAU </CAPTION>
          <TR>
@@ -141,18 +139,18 @@ Dans "tp1" créez un fichier "essai.html" avec le contenu suivant:
 
 ### les liens et les images
 
-```html
+
 
 *les liens*
-
+```html
 <a href="exemple.html">Lien vers le fichier « exemple.html » se trouvant dans le même répertoire que la
 page actuelle</a>
 
 <a href="repertoire_exemple/exemple.html">Lien vers le fichier « exemple.html » se trouvant dans le
 répertoire « repertoire_exemple » qui se trouve dans le même répertoire que la page actuelle</a>
-
+````
 *les images*
-
+```html
 <IMG SRC="Adresse de l'image"> 
     
 <A HREF="fichier.htm"><IMG SRC="image.gif"></A>
@@ -160,22 +158,22 @@ répertoire « repertoire_exemple » qui se trouve dans le même répertoire que
 ````
 
 
-```markdown
-
 
 ## EXERCICE 1 : creer un CV
 
 1.créer un repertoire *monsite* dans *Bureau*
 2.Créer le fichier *moncv.html* dans le répertoire *Bureau/monsite/*
-3.Télécharger l'image depuis [image](https://raw.githubusercontent.com/Nounem/NSI/master/photo.png)  et la placer dans le même répertoire que votre page. Puis insérer l'image dans la page Web à l'aide de la balise *<img>*
+3.Télécharger l'image depuis [image](https://raw.githubusercontent.com/Nounem/NSI/master/photo.png) 
+et la placer dans le même répertoire que votre page. Puis insérer l'image dans la page Web à l'aide de la balise *<img>*
+
 4.Ajouter le *Nom* et *Prenom* dans une balise de *<h1>*
   > l'âge dans un paragraphe , 
   > le métier dans un autre paragraphe,
   > l'adresse dans un unique environnement
+    
 *N'oubliez pas de mettre <br> pour aller à la ligne à chaque fois *.
 
-5.Ajouter la partie Formation en utilisant un environnement <H1> contenant le titre Formation comme titre de premier niveau.
+5.Ajouter la partie Formation en utilisant un environnement *<H1>* contenant le titre Formation comme titre de premier niveau.
 
-# Help
+##Help
 Having trouble with Pages? Check out our [documentation](http://www.lyceenotre-dame72.fr/local/cache-gd2/67168535ab900a80834ab76344a73b3d.jpg) 
-````
