@@ -3,15 +3,16 @@
 ![Lyée notre Dame](http://www.lyceenotre-dame72.fr/local/cache-vignettes/L200xH135/siteon0-edfa2.jpg)
 ### Contexte et historique de HTML
     Le langage HTML (Hyper Text Markup Language) fait partie d’une classe 
-    plus vaste de langages (SGML, XML, XHTML,...)
-    destinés à décrire des documents et leur mise en page tout en distinguant la forme et le fond.
-    Il a été inventé Tim Berners-Lee en 1991 
-    et a d’abord été utilisé par des physiciens du CERN afin de communiquer leurs travaux.
+    plus vaste de langages (SGML, XML, XHTML,...) destinés à décrire
+    des documents et leur mise en page tout en distinguant la forme et le fond.
+    Il a été inventé Tim Berners-Lee en 1991 et a d’abord été utilisé 
+    par des physiciens du CERN afin de communiquer leurs travaux.
     Il est a la base du WEB, la partie actuellement la plus utilisée d’internet.
 
     Tim Berners-Lee suit encore aujourd'hui avec attention l'évolution du Web 
-    et a créé le World Wide Web Consortium (W3C) qui définit les nouvelles versions des langages.
-    Il a par ailleurs créé plus récemment la World Wide Web Foundation, qui analyse et suit l'évolution du Web.
+    et a créé le World Wide Web Consortium (W3C) qui définit les nouvelles
+    versions des langages. Il a par ailleurs créé plus récemment la World Wide Web Foundation,
+    qui analyse et suit l'évolution du Web.
 
 
 ### la base
@@ -196,7 +197,7 @@ répertoire « repertoire_exemple » qui se trouve dans le même répertoire que
 
 ![Mon-cv](https://raw.githubusercontent.com/Nounem/NSI/master/cv.PNG)
 
-## Help
+## Bibliographie
 
 * [wikipedia](https://fr.wikipedia.org/wiki/Hypertext_Markup_Language) 
 * [Openclassroom](https://openclassrooms.com/fr/)
