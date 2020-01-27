@@ -174,8 +174,8 @@ répertoire « repertoire_exemple » qui se trouve dans le même répertoire que
 
 ## EXERCICE 1 : creer un CV
 
-* Créer un repertoire *monsite* dans *Bureau*
-* Créer le fichier *moncv.html* dans le répertoire *Bureau/monsite/*
+* Créer un dossier *monsite* dans *vos documents personnels*
+* Créer le fichier *moncv.html* dans le dossier *monsite*
 * Télécharger l'image au lien ci-dessous :
  
  
