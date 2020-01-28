@@ -240,11 +240,11 @@ répertoire « repertoire_exemple » qui se trouve dans le même répertoire que
 ## Mise en valeur du texte
 
 <p>
-    background-color: green | red | yelow | ... ;
-    color: green | red | yelow | ...  ;
-    font-family: arial, verdana , sans-serif ; 
-    font-style: normal | italic ; 
-    font-weight: normal | bold ;
+    background-color: green | red | yelow | ... ;<br/>
+    color: green | red | yelow | ...  ;<br/>
+    font-family: arial, verdana , sans-serif ; <br/>
+    font-style: normal | italic ; <br/>
+    font-weight: normal | bold ;<br/>
 </p>
 
 
@@ -252,7 +252,7 @@ répertoire « repertoire_exemple » qui se trouve dans le même répertoire que
 ## Mise en forme du texte
 
 <p>
-    text-align: center | left | right | justify
+    text-align: center | left | right | justify<br/>
     text-decolaration: underline | overline | 
 </p>
 
