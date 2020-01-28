@@ -192,10 +192,95 @@ répertoire « repertoire_exemple » qui se trouve dans le même répertoire que
    * l'adresse dans un unique environnement
 * Ajouter la partie Formation en utilisant un environnement `<H1>` contenant le titre Formation comme titre de premier niveau.
 
-# Résultat
+### Résultat
 
 
 ![Mon-cv](https://raw.githubusercontent.com/Nounem/NSI/master/cv.PNG)
+
+
+
+# PARTIE 2 : CSS 
+
+    *CSS* (Cascading Style Sheets : feuilles de style en cascade) est un langage informatique
+    qui sert à décrire la présentation des documents HTML.
+    L'un des objectifs majeurs des CSS est de permettre la mise en forme hors des documents.
+    Il est par exemple possible de ne décrire que la structure d'un document en HTML,
+    et de décrire toute la présentation dans une feuille de style CSS séparée.
+    Ainsi, les avantages des feuilles de style sont multiples :
+  * La structure du document et la présentation peuvent être 
+    gérées dans des fichiers séparés.
+    
+  * La conception d'un document se fait dans un premier temps sans se soucier
+  de la présentation, ce qui permet d'être plus efficace
+
+
+
+## Lien entre la page HTML et la feuille de style CSS
+
+    On peut relier une page web et un fichier CSS en utilisant la balise <link/> :
+    
+```html
+<head>
+    <link rel="stylesheet" href="Nom_du_fichier.css"/>
+</head>
+```
+
+## Mise en force de l'arriere plan
+
+```html
+<body>
+</body>
+    
+    body{
+        background-color: green | red | yelow | ... ;
+    }
+
+```
+
+## Mise en valeur du texte
+
+<p>
+    background-color: green | red | yelow | ... ;
+    color: green | red | yelow | ...  ;
+    font-family: arial, verdana , sans-serif ; 
+    font-style: normal | italic ; 
+    font-weight: normal | bold ;
+</p>
+
+
+
+## Mise en forme du texte
+
+<p>
+    text-align: center | left | right | justify
+    text-decolaration: underline | overline | 
+</p>
+
+
+
+```html
+<balise>
+</balise>   
+
+    balise{
+        background-color:
+        color:
+        font-family: 
+        font-style: normal ou italic ; 
+        font-weight: normal ou bold ; 
+        
+    }
+
+```
+
+
+
+
+
+
+
+
+
 
 ## Bibliographie
 
