@@ -329,7 +329,7 @@ le code CSS :
 
  
  
-* Récuperer les fichiers *exemples.html* et *style.css*
+* Récuperer les fichiers *exemples.html* et *style.css* qui se trouvent au document consultation
 * compléter le fihier  *style.css* pour avoir le résultat ci-dessous :
  
 
