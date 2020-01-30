@@ -271,11 +271,11 @@ répertoire « repertoire_exemple » qui se trouve dans le même répertoire que
 <table>
   <tr>
     <th>Propriétes</th>
-    <th style="background-color: yellow">valeurs</th>
+    <th>valeurs</th>
   </tr>
   <tr>
     <td>background-color</td>
-    <td style="background-color: yellow">
+    <td>
    acqua, green, navy, silver, black, gray, olive,
 teal, blue, lime, purple, white, fuchsia, maroon,
 red, yellow   
@@ -283,23 +283,23 @@ red, yellow
   </tr>
   <tr>
     <td>font-family</td>
-    <td style="background-color: yellow">serif , sans-serif , cursive ,
+    <td>serif , sans-serif , cursive ,
 fantasy , monospace</td>
   </tr>
     
  <tr>
 <td>text-align</td>
-<td style="background-color: yellow"> center , left , right , justify</td>
+<td> center , left , right , justify</td>
 </tr>
   
  <tr>
 <td>border</td>
-<td style="background-color: yellow">solid , dotted , dashed , double ,
+<td>solid , dotted , dashed , double ,
 inset , outset , groove , ridge , none , hidden</td>
 </tr>
  <tr>
 <td>text-decolaration</td>
-<td style="background-color: yellow"> underline , overline </td>
+<td> underline , overline </td>
 </tr>
 </table>
 
