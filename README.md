@@ -199,6 +199,15 @@ répertoire « repertoire_exemple » qui se trouve dans le même répertoire que
 
 
 
+
+
+
+
+
+
+
+
+
 # PARTIE 2 : CSS 
 
     *CSS* (Cascading Style Sheets : feuilles de style en cascade) est un langage informatique
@@ -257,6 +266,44 @@ répertoire « repertoire_exemple » qui se trouve dans le même répertoire que
     text-decolaration: underline | overline | 
 </p>
 
+
+
+<table>
+  <tr>
+    <th>Propriétes</th>
+    <th style="background-color: yellow">valeurs</th>
+  </tr>
+  <tr>
+    <td>background-color</td>
+    <td style="background-color: yellow">
+   acqua, green, navy, silver, black, gray, olive,
+teal, blue, lime, purple, white, fuchsia, maroon,
+red, yellow   
+   </td>
+  </tr>
+  <tr>
+    <td>font-family</td>
+    <td style="background-color: yellow">serif , sans-serif , cursive ,
+fantasy , monospace</td>
+  </tr>
+    
+ <tr>
+<td>text-align</td>
+<td style="background-color: yellow"> center , left , right , justify</td>
+</tr>
+  
+ <tr>
+<td>border</td>
+<td style="background-color: yellow">solid , dotted , dashed , double ,
+inset , outset , groove , ridge , none , hidden</td>
+</tr>
+ <tr>
+<td>text-decolaration</td>
+<td style="background-color: yellow"> underline , overline </td>
+</tr>
+</table>
+
+
 ## Exemple de code 
 
 ```html
@@ -277,12 +324,6 @@ le code CSS :
     }
 
 ```
-
-
-
-
-
-
 
 
 
