@@ -325,7 +325,19 @@ le code CSS :
 
 ```
 
+## TP CSS
 
+ 
+ 
+* Récuperer les fichiers *exemples.html* et *style.css*
+* compléter le fihier  *style.css* pour avoir le résultat ci-dessous :
+ 
+
+![Mon-cv](https://raw.githubusercontent.com/Nounem/NSI/master/tpcss.PNG)
+
+### Ressources
+
+* [liste_des_couleurs](http://www.css-faciles.com/couleurs-css.php) 
 
 
 ## Bibliographie
