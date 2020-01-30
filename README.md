@@ -225,12 +225,12 @@ répertoire « repertoire_exemple » qui se trouve dans le même répertoire que
 </head>
 ```
 
-## Mise en force de l'arriere plan
+## Mise en forme de l'arriere plan
 
 ```html
 <body>
 </body>
-    
+    Pour ajouter du CSS dans la balise <body>
     body{
         background-color: green | red | yelow | ... ;
     }
@@ -244,6 +244,7 @@ répertoire « repertoire_exemple » qui se trouve dans le même répertoire que
     color: green | red | yelow | ...  ;<br/>
     font-family: arial, verdana , sans-serif ; <br/>
     font-style: normal | italic ; <br/>
+    font-size: 50px ; <br/>
     font-weight: normal | bold ;<br/>
 </p>
 
@@ -256,18 +257,22 @@ répertoire « repertoire_exemple » qui se trouve dans le même répertoire que
     text-decolaration: underline | overline | 
 </p>
 
-
+## Exemple de code 
 
 ```html
+le code HTML :
+
 <balise>
+    contenu de la balise 
 </balise>   
 
+le code CSS :
+
     balise{
-        background-color:
-        color:
-        font-family: 
+        background-color: blue ; 
+        color: red ; 
+        font-family: arial ; 
         font-style: normal ou italic ; 
-        font-weight: normal ou bold ; 
         
     }
 
